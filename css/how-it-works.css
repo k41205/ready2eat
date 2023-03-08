@@ -1,0 +1,61 @@
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.how-it-works__title {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  color: #383838;
+}
+
+.how {
+  display: flex;
+  flex-direction: row;
+  height: 43rem;
+  width: 130rem;
+  justify-content: center;
+  align-items: center;
+  background: #ff9b69;
+}
+
+.how__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.how__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.how__wrapper--text {
+  padding: 5rem;
+}
+
+.how__title {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #383838;
+}
+.how__text {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #383838;
+}

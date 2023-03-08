@@ -5,10 +5,20 @@
   </div>
   <nav>
     <div class="menu">
-      <a href="/index" class="menu__link">Home</a>
-      <a href="/food" class="menu__link">Food</a>
-      <a href="/how-it-works" class="menu__link">How it works</a>
-      <a href="" class="menu__link">Plans</a>
+      <a href="/home" class="menu__link {{ 'active' if '/home' in page.url }}"
+        >Home</a
+      >
+      <a href="/food" class="menu__link {{ 'active' if '/food' in page.url }}"
+        >Food</a
+      >
+      <a
+        href="/how-it-works"
+        class="menu__link {{ 'active' if '/how-it-works' in page.url }}"
+        >How it works</a
+      >
+      <a href="/plans" class="menu__link {{ 'active' if '/plans' in page.url }}"
+        >Plans</a
+      >
     </div>
     <div class="user">
       <a href="" class="user__link">Sign up</a>

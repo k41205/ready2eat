@@ -3,6 +3,8 @@
 @import 'home.css';
 @import 'food.css';
 @import 'how-it-works.css';
+@import 'plans.css';
+
 *,
 *::before,
 *::after {
@@ -25,10 +27,19 @@ body {
   font-size: 1.4rem; */
 }
 
+.active {
+  color: #383838;
+}
+
 main {
   min-height: calc(100vh - 6rem - 10rem);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 15rem 8rem;
+}
+
+.no-space-around {
+  padding: 0;
 }
