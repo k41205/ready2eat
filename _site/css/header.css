@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  gap: 6rem;
+  background: #ea873c;
+  padding: 0 5rem;
+  height: 6rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__icon {
+  width: 4.6rem;
+  height: 4.6rem;
+}
+
+.logo__text {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  color: #383838;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #ffffff;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.user__button {
+  padding: 0.2rem 1.4rem;
+  background: #02a89d;
+  border-radius: 15px;
+}

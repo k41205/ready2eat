@@ -1,0 +1,51 @@
+.footer {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #02a89d;
+  padding: 5rem;
+  gap: 0.7rem;
+}
+
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__link {
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 0.2rem;
+}
+.footer__social {
+  cursor: pointer;
+}
+
+.footer__copyright {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}

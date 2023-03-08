@@ -1,0 +1,59 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'home.css';
+@import 'food.css';
+@import 'how-it-works.css';
+@import 'plans.css';
+@import 'about-us.css';
+@import 'terms-of-use.css';
+@import 'privacy-policy.css';
+@import 'signup.css';
+@import 'login.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+html {
+  /* This defines what 1rem is */
+  font-size: 62.5%;
+  /* 1 rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* To avoid resize of header when scrollbar appear */
+  /* width: 100vw; */
+}
+
+.active,
+.active-footer {
+  color: #383838;
+  text-decoration-line: underline;
+  text-underline-offset: 0.4rem;
+  text-decoration-thickness: 0.4rem;
+}
+
+.active-footer {
+  text-decoration-thickness: 0.2rem;
+}
+
+main {
+  min-height: calc(100vh - 6rem - 10rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15rem 8rem;
+}
+
+.no-space-around {
+  padding: 0;
+}
