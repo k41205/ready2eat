@@ -1,0 +1,32 @@
+---
+layout: general-layout.njk
+---
+
+<section class="signup">
+  <h1 class="signup__title">Registration form</h1>
+  <form action="/food" class="form2">
+    <div class="form__wrapper2">
+      <div class="form__wrapper">
+        <label for="name" class="form__label">Name</label>
+        <input type="text" id="name" class="form__input" required />
+        <label for="surname" class="form__label">Surname</label>
+        <input type="text" id="surname" class="form__input" required />
+        <label for="email" class="form__label">Email</label>
+        <input type="email" id="email" class="form__input" required />
+        <label for="phone" class="form__label">Phone number</label>
+        <input type="tel" id="phone" class="form__input" required />
+      </div>
+      <div class="form__wrapper">
+        <label for="address" class="form__label">Address</label>
+        <input type="text" id="address" class="form__input" required />
+        <label for="city" class="form__label">City</label>
+        <input type="text" id="city" class="form__input" required />
+        <label for="county" class="form__label">County</label>
+        <input type="text" id="county" class="form__input" required />
+        <label for="eircode" class="form__label">Eircode</label>
+        <input type="text" id="eircode" class="form__input" required />
+      </div>
+    </div>
+    <input type="submit" value="Sign up" class="form__submit2" />
+  </form>
+</section>

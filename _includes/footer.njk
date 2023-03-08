@@ -1,9 +1,19 @@
 <footer class="footer">
   <div class="footer__wrapper">
     <div class="footer__menu">
-      <a href="" class="footer__link">About Us</a
-      ><a href="" class="footer__link">Terms of Use</a
-      ><a href="" class="footer__link">Privacy Policy</a>
+      <a
+        href="/about-us"
+        class="footer__link {{ 'active-footer' if '/about-us' in page.url }}"
+        >About Us</a
+      ><a
+        href="/terms-of-use"
+        class="footer__link {{ 'active-footer' if '/terms-of-use' in page.url }}"
+        >Terms of Use</a
+      ><a
+        href="/privacy-policy"
+        class="footer__link {{ 'active-footer' if '/privacy-policy' in page.url }}"
+        >Privacy Policy</a
+      >
     </div>
     <div class="footer__socials">
       <img

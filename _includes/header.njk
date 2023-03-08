@@ -21,8 +21,16 @@
       >
     </div>
     <div class="user">
-      <a href="" class="user__link">Sign up</a>
-      <a href="" class="user__button user__link">Log in</a>
+      <a
+        href="/signup"
+        class="user__link {{ 'active' if '/signup' in page.url }}"
+        >Sign up</a
+      >
+      <a
+        href="/login"
+        class="user__button user__link {{ 'active' if '/login' in page.url }}"
+        >Log in</a
+      >
     </div>
   </nav>
 </header>
