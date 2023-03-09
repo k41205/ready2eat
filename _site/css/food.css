@@ -1,3 +1,19 @@
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.food__title {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #383838;
+}
+
 .restaurants {
   display: grid;
   grid-template-rows: 25rem 25rem;

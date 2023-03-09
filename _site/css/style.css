@@ -51,7 +51,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 15rem 8rem;
+  padding: 10rem 8rem;
 }
 
 .no-space-around {

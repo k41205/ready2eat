@@ -7,21 +7,21 @@
   overflow: hidden;
 }
 .login__title {
-  font-family: 'Poppins';
+  font-family: 'Righteous';
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
   color: #383838;
 }
 
-.form {
+.login-form {
   display: flex;
   flex-direction: column;
   background: #ff9b69;
 }
 
-.form__wrapper {
+.login-form__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,10 +29,10 @@
   padding: 3rem;
 }
 
-.form__label,
-.form__text,
-.form__input,
-.form__button {
+.login-form__label,
+.login-form__text,
+.login-form__input,
+.login-form__button {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
@@ -41,12 +41,12 @@
   color: #383838;
 }
 
-.form__input {
+.login-form__input {
   border: none;
   border-radius: 1rem;
 }
 
-.form__submit {
+.login-form__submit {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
@@ -60,11 +60,11 @@
   cursor: pointer;
 }
 
-.form__button {
+.login-form__button {
   color: #ffffff;
 }
 
-.form__button {
+.login-form__button {
   background: #02a89d;
   padding: 0.2rem 2rem;
   border-radius: 1rem;

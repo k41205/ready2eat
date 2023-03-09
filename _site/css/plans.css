@@ -5,12 +5,11 @@
   gap: 5rem;
 }
 .plans__title-h1 {
-  font-family: 'Poppins';
+  font-family: 'Righteous';
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
   color: #383838;
 }
 
