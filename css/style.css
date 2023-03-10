@@ -10,6 +10,25 @@
 @import 'signup.css';
 @import 'login.css';
 
+:root {
+  --color1: #ea873c;
+  --color1-lighter: #ff9b69;
+  --color2: #02a89d;
+  --color2-lighter: #71f5ec;
+  --gray: #ab9387;
+  --color-text: #383838;
+
+  --brand: 400 normal 4.8rem/1.25 'Righteous';
+  --style1big: 400 normal 9.6rem/1.25 'Lobster';
+  --style1: 400 normal 6.4rem/1.25 'Lobster';
+  --style2: 700 normal 2.4rem/1.5 'Poppins';
+  --style3bold: 700 normal 1.6rem/1.1 'Ubuntu';
+  --style3wide: 400 normal 2rem/1.5 'Ubuntu';
+  --style3: 400 normal 1.6rem/1.12 'Ubuntu';
+  --style4: 400 normal 1.4rem/1.14 'Roboto';
+  --style4small: 400 normal 1.1rem/1.18 'Roboto';
+}
+
 *,
 *::before,
 *::after {
@@ -42,7 +61,7 @@ body {
 }
 
 .active-footer {
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.18rem;
 }
 
 main {

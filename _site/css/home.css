@@ -10,11 +10,7 @@
 }
 
 .hero__text {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 120px;
+  font: var(--style1big);
   color: #ffffff;
   position: absolute;
   top: 15%;
@@ -37,7 +33,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: #ab9387;
+  background: var(--gray);
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -45,11 +41,7 @@
 }
 
 .quotes__title {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 80px;
+  font: var(--style1);
   color: #ffffff;
 }
 
@@ -79,11 +71,7 @@
 }
 
 .quote__text {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
+  font: var(--style2);
   color: #ffffff;
 }
 
@@ -96,12 +84,8 @@
 }
 
 .partners__title {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 80px;
-  color: #383838;
+  font: var(--style1);
+  color: var(--color-text);
 }
 
 .partners__wrapper {

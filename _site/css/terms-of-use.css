@@ -6,31 +6,19 @@
 }
 
 .terms__title {
-  font-family: 'Righteous';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  color: #383838;
+  font: var(--brand);
+  color: var(--color-text);
   padding: 0 0 5rem;
   align-self: center;
 }
 
 .terms__text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #383838;
+  font: var(--style4);
+  color: var(--color-text);
 }
 
 .terms__subtitle {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #383838;
+  font: var(--style3bold);
+  color: var(--color-text);
   padding: 1rem 0 0;
 }

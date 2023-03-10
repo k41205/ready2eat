@@ -7,18 +7,14 @@
   overflow: hidden;
 }
 .login__title {
-  font-family: 'Righteous';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  color: #383838;
+  font: var(--brand);
+  color: var(--color-text);
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-  background: #ff9b69;
+  background: var(--color1-lighter);
 }
 
 .login-form__wrapper {
@@ -32,13 +28,10 @@
 .login-form__label,
 .login-form__text,
 .login-form__input,
-.login-form__button {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  color: #383838;
+.login-form__button,
+.login-form__submit {
+  font: var(--style3wide);
+  color: var(--color-text);
 }
 
 .login-form__input {
@@ -47,13 +40,8 @@
 }
 
 .login-form__submit {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
   color: #ffffff;
-  background: #383838;
+  background: var(--color-text);
   border: none;
   border-radius: 1rem;
   padding: 0.2rem 2rem;
@@ -65,7 +53,7 @@
 }
 
 .login-form__button {
-  background: #02a89d;
+  background: var(--color2);
   padding: 0.2rem 2rem;
   border-radius: 1rem;
 }

@@ -7,12 +7,8 @@
 }
 
 .how-it-works__title {
-  font-family: 'Righteous';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  color: #383838;
+  font: var(--brand);
+  color: var(--color-text);
 }
 
 .how {
@@ -22,7 +18,7 @@
   width: 130rem;
   justify-content: center;
   align-items: center;
-  background: #ff9b69;
+  background: var(--color1-lighter);
 }
 
 .how__wrapper {
@@ -44,18 +40,10 @@
 }
 
 .how__title {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 80px;
-  color: #383838;
+  font: var(--style1);
+  color: var(--color-text);
 }
 .how__text {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  color: #383838;
+  font: var(--style3wide);
+  color: var(--color-text);
 }

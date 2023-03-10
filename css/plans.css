@@ -5,25 +5,17 @@
   gap: 5rem;
 }
 .plans__title-h1 {
-  font-family: 'Righteous';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  color: #383838;
+  font: var(--brand);
+  color: var(--color-text);
 }
 
 .plans__title-h2 {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #383838;
+  font: var(--style3bold);
+  color: var(--color-text);
 }
 .features__wrapper {
   display: flex;
-  background: #71f5ec;
+  background: var(--color2-lighter);
   border-radius: 5px;
 }
 .feature__info {
@@ -41,13 +33,9 @@
   height: 4rem;
 }
 .feature__text {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
+  font: var(--style3bold);
   text-align: center;
-  color: #383838;
+  color: var(--color-text);
 }
 
 .plans__wrapper {
@@ -78,65 +66,45 @@
 }
 
 .plan__header--gold {
-  background: #ea873c;
+  background: var(--color1);
 }
 .plan__header--silver {
-  background: #ab9387;
+  background: var(--gray);
 }
 
 .plan__title {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: #383838;
+  font: var(--style2);
+  color: var(--color-text);
 }
 
 .plan__text {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #383838;
+  font: var(--style3);
+  color: var(--color-text);
 }
 
 .plan__price {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #383838;
+  font: var(--style3bold);
+  color: var(--color-text);
 }
 
 .plan__description {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font: var(--style4);
   text-align: center;
-  color: #383838;
+  color: var(--color-text);
   padding: 0 0.2rem;
 }
 
 .plan__button {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
+  font: var(--style3bold);
   color: #ffffff;
   border-radius: 5px;
   padding: 1rem;
 }
 
 .plan__button--gold {
-  background: #02a89d;
+  background: var(--color2);
 }
 
 .plan__button--silver {
-  background: #ab9387;
+  background: var(--gray);
 }
